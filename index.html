@@ -143,7 +143,7 @@ const years = [
  
 function filterBy(y) {
 console.log(years[y]);
-const filters = ['==', 'YEAR', years[y]];
+const filters = ['==', 'EVENT_YEAR', years[y]];
 map.setFilter('dam', filters);
  
 document.getElementById('month').textContent = String(years[y]);
